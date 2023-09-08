@@ -187,7 +187,13 @@
               }
             };
             const commandData = {
-              text: "Title: " + post.Title + ", Year: " + post.Year,
+              text:
+                "Title: " +
+                post.Title +
+                ", Year: " +
+                post.Year +
+                ", Director: " +
+                post.Director,
             };
             lpTag.agentSDK.command(
               lpTag.agentSDK.cmdNames.write,
